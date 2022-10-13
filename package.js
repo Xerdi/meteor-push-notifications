@@ -8,9 +8,9 @@ Package.describe({
 
 Package.onUse(function (api) {
     api.use([
-        'ecmascript',
-        'accounts-base',
-        'xerdi:logging'
+        'ecmascript@0.16.2',
+        'accounts-base@2.2.4',
+        'xerdi:logging@0.0.3'
     ]);
     api.addAssets(['service-worker.js'], 'client');
     api.mainModule('client.js', 'client');
