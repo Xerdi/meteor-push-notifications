@@ -1,0 +1,14 @@
+[ignore]
+
+[include]
+credentials.js
+push-notifications.js
+
+[libs]
+.npm/**.js
+
+[lints]
+
+[options]
+
+[strict]
